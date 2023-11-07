@@ -30,7 +30,7 @@ function CheckoutButton() {
       collection(db, "customers", session.user.id, "checkout_sessions"),
       {
         // TODO: Add price
-        price: process.env.NEXT_PUBLIC_STRIPE_PRODUCT_PRICE_ID,
+        price: "price_1O9sBaHs5oWseAJUcoOfwpCV",
         success_url: window.location.origin,
         cancel_url: window.location.origin,
       }
