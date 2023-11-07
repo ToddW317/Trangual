@@ -62,7 +62,7 @@ function CheckoutButton() {
         <>
           <hr className="mt-5" />
           <p className="pt-5 text-center text-xs text-indigo-600">
-            You are subscribed to PRO
+            You are already subscribed to PRO
           </p>
         </>
       )}
