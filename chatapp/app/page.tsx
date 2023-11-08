@@ -26,7 +26,7 @@ export default function HomePage() {
                 Chat with Anyone, anywhere!
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                You speak your language, they speak their language.{" "}
+                You speak your language, they speak their language!{" "}
                 <span className="text-indigo-600 dark:text-indigo-500">
                   Let AI handle the translation.
                 </span>
