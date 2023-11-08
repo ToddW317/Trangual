@@ -1,4 +1,4 @@
-"use client";
+"use server";
 
 import { authOptions } from "@/auth";
 import { adminDb } from "@/firebase-admin";
