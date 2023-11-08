@@ -1,4 +1,4 @@
-import { generatePortalLink } from "@/actions/generatePortalLink";
+import { generatePortalLink } from "@/actions/registerActions";
 
 function ManageAccountButton() {
   return (
