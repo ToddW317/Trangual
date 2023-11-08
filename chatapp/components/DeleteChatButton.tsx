@@ -15,7 +15,7 @@ import {
 import { useToast } from "./ui/use-toast";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import useAdminId from "@/hooks/userAdminId";
+import useAdminId from "@/hooks/useAdminId";
 
 function DeleteChatButton({ chatId }: { chatId: string }) {
   const { data: session } = useSession();

@@ -3,7 +3,7 @@
 import { ChatMembers, chatMembersRef } from "@/lib/converters/ChatsMembers";
 import { useCollectionData } from "react-firebase-hooks/firestore";
 import { Badge } from "@/components/ui/badge";
-import useIsAdmin from "@/hooks/userAdminId";
+import useIsAdmin from "@/hooks/useAdminId";
 import UserAvatar from "./ui/UserAvatar";
 import LoadingSpinner from "./loadingSpinner";
 

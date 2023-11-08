@@ -28,7 +28,7 @@ import { useSession } from "next-auth/react";
 import { useState } from "react";
 import { getUserByEmailRef } from "@/lib/converters/User";
 import { useToast } from "@/components/ui/use-toast";
-import useAdminId from "@/hooks/userAdminId";
+import useAdminId from "@/hooks/useAdminId";
 import { PlusCircleIcon } from "lucide-react";
 import { ShareLink } from "./ShareLink";
 import { useSubscriptionStore } from "@/store/store";
